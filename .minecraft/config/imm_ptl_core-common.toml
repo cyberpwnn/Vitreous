@@ -1,5 +1,5 @@
 #Check the wiki at https://qouteall.fun/immptl/wiki/Config-Options for more information
-enableWarning = true
+enableWarning = false
 enableMirrowCreation = true
 #Range: > 0
 maxPortalLayer = 5
