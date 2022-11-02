@@ -6,3 +6,19 @@
 .minecraft/logs/
 
 instance.cfg
+
+.minecraft/options.txt
+
+.minecraft/XaeroWaypoints_BACKUP032021/
+
+.minecraft/XaeroWorldMap/
+
+.minecraft/XaeroWaypoints/
+
+.minecraft/usercache.json
+
+.minecraft/usernamecache.json
+
+.minecraft/shaderpacks/
+
+.minecraft/datapacks/
