@@ -4,20 +4,110 @@ customization-meta {
   fadeout = false
   randomgroup = 1
   keepaspectratio = false
+  backgroundimage = resources/loader/blurbg.png
+  autoscale_baseheight = 480
   renderorder = foreground
+  autoscale_basewidth = 854
   randommode = false
   randomonlyfirsttime = false
   backgroundcolor = #000000
 }
 
 customization {
-  x = 1
+  x = -5
   action = editlogo
-  y = -93
+  y = -17
 }
 
 customization {
+  x = -3
   action = editprogressbar
+  y = -50
   barcolor = 009999
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resources/loader/lines.txt
+  rotation = 0.0
+  x = 0
+  actionid = e3cd9bfc-89f7-4562-b382-0b760ea7cf841667508896599
+  action = addsplash
+  y = 50
+  scale = 2.0
+  refresh = false
+  bouncing = false
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 230
+  textcolor = #ffffff
+  action = addtext
+  actionid = 0cc72a08-99c2-47b4-9fe0-232aa8b65a641667509001969
+  y = 279
+  scale = 1.0
+  alignment = left
+  value = VITREOUS EDITION!
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 167
+  textcolor = #ffffff
+  action = addtext
+  actionid = cde794c8-5b4e-4dbf-9004-fbc950f960811667509880181
+  y = 210
+  scale = 1.0
+  alignment = left
+  value = Vitreous Edition!
+}
+
+customization {
+  path = resources/loader/source.gif
+  orientation = top-left
+  x = 2
+  width = 49
+  action = addtexture
+  actionid = 96555b62-9300-46c5-aeed-30d8826ee3351667510312413
+  y = 171
+  height = 67
+}
+
+customization {
+  path = resources/loader/source.gif
+  orientation = top-left
+  x = 3
+  width = 49
+  action = addtexture
+  actionid = 6ad2aac4-374f-43aa-9be7-8c8472df44c31667510323832
+  y = 171
+  height = 67
+}
+
+customization {
+  path = resources/loader/source.gif
+  orientation = top-left
+  x = 0
+  width = 49
+  action = addtexture
+  actionid = e9ef14e4-0f84-47b8-8dcb-32599d9428c61667510324718
+  y = 173
+  height = 67
+}
+
+customization {
+  path = resources/loader/isource.gif
+  orientation = top-left
+  x = 378
+  width = 49
+  action = addtexture
+  actionid = aff896e5-c1f0-4607-9a95-b6bd3320b78a1667510428311
+  y = 173
+  height = 67
 }
 
