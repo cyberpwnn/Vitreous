@@ -1,0 +1,23 @@
+type = hud
+
+customization-meta {
+  fadeout = false
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #000000
+}
+
+customization {
+  x = 1
+  action = editlogo
+  y = -93
+}
+
+customization {
+  action = editprogressbar
+  barcolor = 009999
+}
+
