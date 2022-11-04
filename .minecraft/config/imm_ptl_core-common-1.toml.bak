@@ -1,12 +1,12 @@
 #Check the wiki at https://qouteall.fun/immptl/wiki/Config-Options for more information
-enableWarning = true
+enableWarning = false
 enableMirrowCreation = true
 #Range: > 0
-maxPortalLayer = 5
+maxPortalLayer = 2
 sharedBlockMeshBufferOptimization = true
 lagAttackProof = true
 #Range: > 0
-portalRenderLimit = 200
+portalRenderLimit = 24
 #Range: > 0
 indirectLoadingRadiusCap = 8
 enableCrossPortalSound = true
@@ -20,7 +20,7 @@ serverSideNormalChunkLoading = true
 teleportationDebug = false
 correctCrossPortalEntityRendering = true
 looseMovementCheck = false
-pureMirror = false
+pureMirror = true
 enableAlternateDimensions = true
 reducedPortalRendering = false
 visibilityPrediction = true
