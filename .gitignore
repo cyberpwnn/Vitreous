@@ -30,3 +30,5 @@ natives/
 .minecraft/journeymap/
 
 .minecraft/fancymenu_data/
+
+.minecraft/config/oculus.properties
