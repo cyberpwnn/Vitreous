@@ -34,3 +34,7 @@ natives/
 .minecraft/config/oculus.properties
 
 .minecraft/local/ftbchunks/
+
+.minecraft/config/multimine.cfg
+
+.minecraft/config/jei/
