@@ -5,37 +5,66 @@
 'feet' : '',
 0 : '{Count:1b,id:"minecraft:wooden_sword",tag:{Damage:0}}',
 1 : '{Count:1b,id:"akashictome:tome",tag:{"akashictome:data":{advancedperipherals:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"advancedperipherals:manual"}},ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},bloodmagic:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"bloodmagic:guide"}},botania:{Count:1b,id:"botania:lexicon"},dynamictrees:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"dynamictrees:guide"}},integratedtunnels:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"},theoneprobe:{Count:1b,id:"theoneprobe:probenote"}}}}',
-2 : '{Count:6b,id:"minecraft:bread"}',
+2 : '{Count:6b,id:"minecraft:bread",tag:{"spoiled:SpoilMaxTime":40,"spoiled:SpoilTimer":2}}',
 3 : '{Count:1b,id:"sophisticatedbackpacks:backpack",tag:{contentsUuid:[I;2025554515,1811891153,-1885555980,-1879998088],inventorySlots:27,upgradeSlots:1}}',
 4 : '',
 5 : '',
 6 : '',
 7 : '',
 8 : '',
-9 : '',
+9 : '{Count:1b,id:"minecraft:clock",tag:{"quark:clock_calculated":1b}}',
 10 : '',
 11 : '',
 12 : '',
-13 : '',
+13 : '{Count:1b,id:"minecraft:wooden_pickaxe",tag:{Damage:0}}',
 14 : '',
 15 : '',
 16 : '',
-17 : '',
-18 : '',
+17 : '{Count:1b,id:"minecraft:compass",tag:{"quark:compass_calculated":1b,"quark:compass_in_nether":0b}}',
+18 : '{Count:3b,id:"minecraft:torch"}',
 19 : '',
-20 : '',
-21 : '',
-22 : '',
-23 : '',
-24 : '',
+20 : '{Count:32b,id:"minecraft:oak_log"}',
+21 : '{Count:1b,id:"minecraft:wooden_shovel",tag:{Damage:0}}',
+22 : '{Count:1b,id:"minecraft:writable_book",tag:{pages:["Hello!
+And welcome to Vitreous!
+
+This Booklet Should be the best way to understand the pack, and get your feet on the ground, and understanding the world around you!
+
+
+So lets get started...",'Firstly: 
+Immersive Portals.
+- This mod is one of the big mods purely for function that this pack was designed for
+
+Wormholes
+- Wormhole Frame Blocks and the "Hole Applicator" can be used to construct a gateway between points. USE THEM!',"Create:
+- Create as a mod is like a utility/tech mod that is fun to use that makes Big constructs like Mechs and Steampunk decor to function and is relatively simple / east to understand once you get into it. ","Applied Energistics:
+- Applied Ener. is a mod that is about STORAGE and MORE STORAGE, fantastic to get into, moderately complicated at the start but also easy once you get into it.",'Botania:
+- This is a "Flower power" mod and it seems like a magic mod, but is purely a tech mod with moss fights and a flower skin. This is singlehandedly probably the strongest mod in this pack if you have the mana. Both tech wise and "magic" wise. ','Mekanism:
+- This mod is "The" Tech mod for the pack. This means ok power, resource processing, and so on. Very open ended and a good start to understanding a "Generic" tech mod with some pretty cool additives.',"Backpacks:
+- This is where you found this book! and you can make bigger ones and with more colors!
+
+Drawers:
+- Great ways to show off what you have in a 3D Box that is fun to click on!","Thermal Expansion:
+- Power generation and power storage. An Exelent early to late game solution to power manipulation for the average user.
+
+Ars Novaru:
+- This is a real magic mod that makes you a wizard! This has its own progression and spell creation system.","Tinkers Construct:
+- This is your one-stop-shop for all things tool related. Vanilla tools are terrible and break faster. The ones made with tinkers can have custom attributes and materials and will level with you. Make these tools over any other to save time and resources","CC: Tweaked:
+- This is Computercraft, but ported to the latest version. This mod is a great programmable mod using LUA, and the scripting engine it has to offer. You can make lovely contraptions with minion'd turtles and computer displays etc...","Project E:
+- This is another one of those mods that can either break the game or serve for a sake of ease. Convert items to other items using the Energy Condenser. This can NOLONGER be automated with sunflowers or passive EMC. This is still very powerful.","Reliquary:
+- Ever wanted to be Jesus? or Santisma Muerte? Well you are in luck! This mod is a great way for creating religous artifacts to make the world your bitch! This mod is Very instandard and makes religion more than a thing that ruins the thanksgiving diner.","Blood magic:
+- This is quite literally self sacrifice then automaging monster sacrifice to get absurd benifits and items that need to be nerfed! I hope you like the sound of pricking your finger and monotonous building of altars and structures!","Spice of life:
+- Eat new food, Gain more health!"]}}',
+23 : '{Count:1b,id:"minecraft:wooden_axe",tag:{Damage:0}}',
+24 : '{Count:32b,id:"minecraft:oak_log"}',
 25 : '',
-26 : '',
-27 : '',
+26 : '{Count:3b,id:"minecraft:torch"}',
+27 : '{Count:1b,id:"additionaladditions:depth_meter"}',
 28 : '',
 29 : '',
-30 : '',
-31 : '',
-32 : '',
+30 : '{Count:1b,id:"minecraft:bundle"}',
+31 : '{Count:1b,id:"minecraft:wooden_hoe",tag:{Damage:0}}',
+32 : '{Count:1b,id:"tconstruct:materials_and_you"}',
 33 : '',
 34 : '',
-35 : '',
+35 : '{Count:1b,id:"minecraft:spyglass"}',
