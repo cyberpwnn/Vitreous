@@ -12,7 +12,7 @@
     "generate_frame_if_not_found": true
   },
   "trigger": {
-    "type": "imm_ptl:use_item",
-    "item": "minecraft:compass"
+    "type": "imm_ptl:throw_item",
+    "item": "supplementaries:key"
   }
 }
