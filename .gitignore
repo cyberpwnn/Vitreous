@@ -38,3 +38,5 @@ natives/
 .minecraft/config/multimine.cfg
 
 .minecraft/config/jei/
+
+.minecraft/config/libraryferret.properties
