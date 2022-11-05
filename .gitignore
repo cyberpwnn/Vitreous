@@ -32,3 +32,5 @@ natives/
 .minecraft/fancymenu_data/
 
 .minecraft/config/oculus.properties
+
+.minecraft/local/ftbchunks/
