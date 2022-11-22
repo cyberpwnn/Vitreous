@@ -1,0 +1,69 @@
+
+variant: {
+  original: minecraft:redstone_ore
+}
+
+recipe: {
+  xp: 0.699999988079071
+  result: minecraft:redstone
+  group: redstone
+}
+
+texture: {
+  original: minecraft:block/redstone_ore
+  overlay: osv:block/minecraft/redstone_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    count: 4
+    height: {
+      // e.g. (-64,15)
+      offset: [ 0, 79 ]
+    }
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    count: 8
+    height: {
+      // e.g. (352,-32)
+      offset: [ -32, 32 ]
+    }
+  }
+]

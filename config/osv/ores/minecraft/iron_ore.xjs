@@ -1,0 +1,109 @@
+
+variant: {
+  original: minecraft:iron_ore
+}
+
+recipe: {
+  xp: 0.699999988079071
+  result: minecraft:iron_ingot
+  group: iron_ingot
+}
+
+texture: {
+  original: minecraft:block/iron_ore
+  overlay: osv:block/minecraft/iron_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        terralith:rocky_jungle
+        terralith:jungle_mountains
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        terralith:glacial_chasm
+        mythicbotany:dreamwood_forest
+        terralith:scarlet_mountains
+        terralith:volcanic_peaks
+        terralith:emerald_peaks
+        terralith:sandstone_valley
+        terralith:red_oasis
+        terralith:desert_oasis
+        terralith:desert_spires
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 9
+    count: 90
+    height: [ 80, 384 ]
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 9
+    count: 10
+    height: [ -24, 56 ]
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 4
+    count: 10
+    height: {
+      // e.g. (-64,72)
+      offset: [ 0, 136 ]
+    }
+  }
+  {
+    biomes: biomesoplenty:mediterranean_forest
+    size: 10
+    count: 14
+    modifiers: {
+      heightmap: OCEAN_FLOOR_WG
+      type: minecraft:heightmap
+    }
+  }
+]

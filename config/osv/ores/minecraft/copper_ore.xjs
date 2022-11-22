@@ -1,0 +1,55 @@
+
+variant: {
+  original: minecraft:copper_ore
+}
+
+recipe: {
+  xp: 0.699999988079071
+  result: minecraft:copper_ingot
+  group: copper_ingot
+}
+
+texture: {
+  original: minecraft:block/copper_ore
+  overlay: osv:block/minecraft/copper_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        minecraft:dripstone_caves
+        quark:glimmering_weald
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        terralith:alpha_islands_winter
+        mythicbotany:dreamwood_forest
+        terralith:alpha_islands
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 10
+    count: 16
+    height: [ -16, 112 ]
+  }
+  {
+    biomes: [
+      quark:glimmering_weald
+      minecraft:dripstone_caves
+    ]
+    size: 20
+    count: 16
+    height: [ -16, 112 ]
+  }
+]

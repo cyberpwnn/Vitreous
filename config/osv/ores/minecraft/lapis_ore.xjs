@@ -1,0 +1,74 @@
+
+variant: {
+  original: minecraft:lapis_ore
+}
+
+recipe: {
+  xp: 0.20000000298023224
+  result: minecraft:lapis_lazuli
+  group: lapis_lazuli
+}
+
+texture: {
+  original: minecraft:block/lapis_ore
+  overlay: osv:block/minecraft/lapis_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        terralith:alpha_islands_winter
+        mythicbotany:dreamwood_forest
+        terralith:alpha_islands
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 7
+    height: [ -32, 32 ]
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        terralith:alpha_islands_winter
+        mythicbotany:dreamwood_forest
+        terralith:alpha_islands
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 7
+    count: 4
+  }
+  {
+    biomes: quark:glimmering_weald
+    size: 7
+    count: 12
+    height: [ -64, 0 ]
+  }
+]

@@ -1,0 +1,22 @@
+
+variant: {
+  original: create:zinc_ore
+}
+
+recipe: {
+  xp: 1
+  result: create:zinc_ingot
+  group: 
+}
+
+texture: {
+  original: create:block/zinc_ore
+  overlay: osv:block/create/zinc_ore
+}
+
+gen: {
+  biomes: []
+  size: 12
+  count: [ 0, 8 ]
+  height: [ -63, 70 ]
+}

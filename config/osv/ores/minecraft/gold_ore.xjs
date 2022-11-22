@@ -1,0 +1,79 @@
+
+variant: {
+  original: minecraft:gold_ore
+}
+
+recipe: {
+  xp: 1
+  result: minecraft:gold_ingot
+  group: gold_ingot
+}
+
+texture: {
+  original: minecraft:block/gold_ore
+  overlay: osv:block/minecraft/gold_ore
+}
+
+gen: [
+  {
+    biomes: {
+      types: MESA
+    }
+    size: 9
+    count: 50
+    height: [ 32, 256 ]
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 9
+    count: 4
+    height: [ -64, 32 ]
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        terralith:cave/frostfire_caves
+        terralith:cave/mantle_caves
+        terralith:cave/desert_caves
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        terralith:alpha_islands_winter
+        mythicbotany:dreamwood_forest
+        terralith:alpha_islands
+        terralith:painted_mountains
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 9
+    count: [ 0, 1 ]
+    height: [ -64, -48 ]
+  }
+]

@@ -1,0 +1,103 @@
+
+variant: {
+  original: minecraft:diamond_ore
+}
+
+recipe: {
+  xp: 1
+  result: minecraft:diamond
+  group: diamond
+}
+
+texture: {
+  original: minecraft:block/diamond_ore
+  overlay: osv:block/minecraft/diamond_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 4
+    count: 7
+    height: {
+      // e.g. (304,16)
+      offset: [ -80, 80 ]
+    }
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 12
+    height: {
+      // e.g. (304,16)
+      offset: [ -80, 80 ]
+    }
+    chance: 0.1111111111111111
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        terralith:cave/frostfire_caves
+        terralith:cave/mantle_caves
+        terralith:cave/desert_caves
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        biomesoplenty:origin_valley
+        minecraft:the_void
+        terralith:alpha_islands_winter
+        mythicbotany:dreamwood_forest
+        terralith:alpha_islands
+        terralith:painted_mountains
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    count: 4
+    height: {
+      // e.g. (304,16)
+      offset: [ -80, 80 ]
+    }
+  }
+]

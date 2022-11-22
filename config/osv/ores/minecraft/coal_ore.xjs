@@ -1,0 +1,91 @@
+
+variant: {
+  original: minecraft:coal_ore
+}
+
+recipe: {
+  xp: 0.10000000149011612
+  result: minecraft:coal
+  group: coal
+}
+
+texture: {
+  original: minecraft:block/coal_ore
+  overlay: osv:block/minecraft/coal_ore
+}
+
+gen: [
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        terralith:rocky_jungle
+        terralith:jungle_mountains
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        terralith:glacial_chasm
+        mythicbotany:dreamwood_forest
+        terralith:granite_cliffs
+        terralith:scarlet_mountains
+        terralith:emerald_peaks
+        terralith:volcanic_crater
+        terralith:sandstone_valley
+        terralith:red_oasis
+        terralith:desert_oasis
+        terralith:desert_spires
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 17
+    count: 30
+    height: {
+      // e.g. (136,383)
+      offset: [ 200, -1 ]
+    }
+  }
+  {
+    biomes: {
+      blacklist: true
+      names: [
+        bloodmagic:none
+        terrablender:deferred_placeholder
+        ae2:spatial_storage
+        minecraft:the_void
+        mythicbotany:dreamwood_forest
+        terralith:sandstone_valley
+        terralith:red_oasis
+        terralith:desert_oasis
+        terralith:desert_spires
+        mythicbotany:alfheim_hills
+        mythicbotany:golden_fields
+        mythicbotany:alfheim_plains
+        mythicbotany:alfheim_lakes
+      ]
+      types: [
+        THEEND
+        NETHER
+      ]
+    }
+    size: 17
+    count: 20
+    height: [ 0, 192 ]
+  }
+  {
+    biomes: biomesoplenty:mediterranean_forest
+    size: 10
+    count: 14
+    modifiers: {
+      heightmap: OCEAN_FLOOR_WG
+      type: minecraft:heightmap
+    }
+  }
+]

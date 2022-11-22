@@ -1,0 +1,53 @@
+
+variant: {
+  original: minecraft:emerald_ore
+}
+
+recipe: {
+  xp: 1
+  result: minecraft:emerald
+  group: emerald
+}
+
+texture: {
+  original: minecraft:block/emerald_ore
+  overlay: osv:block/minecraft/emerald_ore
+}
+
+gen: [
+  {
+    biomes: [
+      biomesoplenty:rocky_rainforest
+      biomesoplenty:highland
+      minecraft:windswept_forest
+      minecraft:windswept_hills
+      minecraft:windswept_gravelly_hills
+      biomesoplenty:highland_moor
+      terralith:haze_mountain
+      terralith:windswept_spires
+      terralith:alpine_grove
+      minecraft:grove
+      terralith:painted_mountains
+      minecraft:snowy_slopes
+      minecraft:meadow
+      terralith:volcanic_peaks
+      terralith:stony_spires
+      terralith:rocky_mountains
+      terralith:blooming_plateau
+      minecraft:jagged_peaks
+      minecraft:stony_peaks
+      terralith:volcanic_crater
+      minecraft:frozen_peaks
+      biomesoplenty:volcano
+    ]
+    size: 3
+    count: 100
+    height: [ -16, 480 ]
+  }
+  {
+    biomes: []
+    size: 58
+    count: 12
+    height: [ 110, 290 ]
+  }
+]

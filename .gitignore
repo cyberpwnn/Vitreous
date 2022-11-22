@@ -50,3 +50,17 @@ minecraftinstance.json
 crash-reports/
 
 logs/
+
+usercache.json
+
+usernamecache.json
+
+saves/
+
+local/
+
+journeymap/
+
+dynmap/
+
+backups/
