@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "osv:block/minecraft/copper_ore_shade_stone"
+      },
+      {
+        "model": "osv:block/minecraft/copper_ore_shade_stone_mirrored"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/copper_ore_shade_stone"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/copper_ore_shade_stone_mirrored"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "osv:block/minecraft/lapis_ore_shade_andesite"
+    }
+  }
+}

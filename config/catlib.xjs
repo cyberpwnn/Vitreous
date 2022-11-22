@@ -1,0 +1,57 @@
+
+general: {
+  // Whether to enable this library's provided commands as regular commands.
+  enableGlobalLibCommands: false
+
+  // The minimum error level to display in the error menu.
+  // Allowed Values: WARN, ERROR, FATAL
+  errorLevel: ERROR
+
+  // Whether to wrap text on the error detail page. Hit W or space to toggle in game.
+  wrapText: true
+
+  // How many lines for the display command to render in the chat before opening a
+  // dedicated screen. Set this to 0 to always open a screen.
+  // Range: 0 ~ 100
+  displayLength: 35
+}
+
+formatting: {
+  // The number of spaces representing a single tab indent.
+  // Range: > 0
+  tabSize: 2
+
+  // The minimum number of lines between values, ignoring single-line containers.
+  // Range: > 0
+  minSpacing: 1
+
+  // The maximum number of lines between values.
+  // Range: > 0
+  maxSpacing: 3
+
+  // The default number of lines between values (for generated configs.
+  // Range: > 0
+  defaultSpacing: 1
+
+  // Whether to tolerate single-line containers
+  allowCondense: true
+
+  // Whether to skip printing root braces for any supported format (XJS, Hjson).
+  omitRootBraces: true
+
+  // Whether to automatically remove quotes from generated configs (XJS, Hjson).
+  omitQuotes: true
+
+  // Whether to print comments (this comment will be deleted).
+  outputComments: true
+
+  // Whether to open containers on the same line (Java style instead of C# style).
+  bracesSameLine: true
+
+  // Whether to insert extra lines around commented values and containers.
+  smartSpacing: true
+
+  // The default comment style to use for generated configs.
+  // Allowed Values: HASH, LINE, BLOCK, LINE_DOC, MULTILINE_DOC
+  commentStyle: LINE
+}

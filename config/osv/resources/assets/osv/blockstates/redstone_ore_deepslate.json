@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=z": [
+      {
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      },
+      {
+        "y": 180,
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "y": 180,
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      }
+    ],
+    "axis=x": [
+      {
+        "x": 90,
+        "y": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "x": 90,
+        "y": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      },
+      {
+        "y": 90,
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "y": 90,
+        "x": 90,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate"
+      },
+      {
+        "y": 180,
+        "model": "osv:block/minecraft/redstone_ore_shade_deepslate_mirrored"
+      }
+    ]
+  }
+}

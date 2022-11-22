@@ -40,3 +40,13 @@ natives/
 .minecraft/config/jei/
 
 .minecraft/config/libraryferret.properties
+
+shaderpacks/
+
+.curseclient
+
+minecraftinstance.json
+
+crash-reports/
+
+logs/
