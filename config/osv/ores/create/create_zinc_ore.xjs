@@ -6,8 +6,7 @@ variant: {
 recipe: {
   xp: 1
   result: create:zinc_ingot
-  group: 
-}
+  group:}
 
 texture: {
   original: create:block/zinc_ore
