@@ -2,6 +2,19 @@
   {
     "user": {
       "type": "player",
+      "name": "Magic_Psycho",
+      "uniqueId": "85ff4989-a64f-4db6-93f1-00c85bfc4e75"
+    },
+    "time": 1669194232679,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zCXpdhlceR"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
       "name": "cyberpwn",
       "uniqueId": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6"
     },

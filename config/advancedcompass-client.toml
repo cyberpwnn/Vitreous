@@ -21,9 +21,9 @@
 	#Move vanilla bossbar below the compass
 	moveBossbar = true
 	#Merge entities into groups
-	groupEntities = true
+	groupEntities = false
 	#Show distance
-	showDistance = true
+	showDistance = false
 	#Show players
 	showPlayers = true
 	#Hide overlapped icons
@@ -32,7 +32,7 @@
 	#Range: 0 ~ 10
 	overlapThreshold = 4
 	#Create waypoint on death
-	autoDeathWaypoint = true
+	autoDeathWaypoint = false
 	#Compass show mode
 	#Allowed Values: OFF, ALWAYS_ON, MAIN_HAND, BOTH_HANDS, ANY_SLOT
 	showMode = "ALWAYS_ON"
@@ -49,10 +49,10 @@
 	compassWidth = 412
 	#Compass height
 	#Range: 8 ~ 50
-	compassHeight = 22
+	compassHeight = 15
 	#Icon scale
 	#Range: 50 ~ 200
-	iconScale = 100
+	iconScale = 50
 	#Auto icon generation type
 	#Allowed Values: HEAD_FIRST, FULL_BODY, OFF
 	generationType = "HEAD_FIRST"

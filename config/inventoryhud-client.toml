@@ -2,7 +2,7 @@
 #Settings for Inventory HUD
 [inventoryhud]
 	#Inventory HUD mini mode
-	invMini = false
+	invMini = true
 	#Inventory HUD vertical mode
 	invVert = false
 	#Inventory HUD alpha
